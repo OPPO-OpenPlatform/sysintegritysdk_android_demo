@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SafetyCheckerDemo</string>
+    <string name="get_token_async_txt">Token\n(A)</string>
+<!--    <string name="get_token_sync_def_txt">Token\n(SD)</string>-->
+<!--    <string name="get_token_sync_txt">Token\n(S)</string>-->
+<!--    <string name="get_token_async_def_txt">Token\n(AD)</string>-->
+<!--    <string name="get_token_sync_main_txt">Token\n(M)</string>-->
+<!--    <string name="get_token_loop_start_txt">Start\n(Token)</string>-->
+<!--    <string name="get_token_no_msp">Token\n(no msp test)</string>-->
+<!--    <string name="get_token_loop_stop_txt">Stop\n(Token)</string>-->
+<!--    <string name="check_env_txt">Check\n(Sync)</string>-->
+<!--    <string name="check_env_delay_txt">Check\n(Delay)</string>-->
+<!--    <string name="check_env_stable_start_txt">Start\n(Check)</string>-->
+<!--    <string name="check_env_stable_stop_txt">Stop\n(Check)</string>-->
+<!--    <string name="et_timeout_default_txt">10000</string>-->
+<!--    <string name="sw_retry_txt">Retry</string>-->
+<!--    <string name="tw_timeout_txt">Timeout</string>-->
+<!--    <string name="periodic_txt">Periodic Test</string>-->
+<!--    <string name="no_msp_txt">without msp Test</string>-->
+</resources>

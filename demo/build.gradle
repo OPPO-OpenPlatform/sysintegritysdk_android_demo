@@ -1,0 +1,40 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 34
+    buildToolsVersion "30.0.3"
+    defaultConfig {
+        applicationId "com.stdsco.demo"
+        minSdkVersion 22
+        targetSdkVersion 34
+        versionCode 1
+        versionName '1.0.1'
+        ndk {
+            abiFilters 'armeabi-v7a', 'arm64-v8a'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation("com.oplus.omes.srp.sdk:safetycheck:1.0.1")
+
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
+    implementation 'androidx.annotation:annotation:1.2.0'
+    implementation 'com.google.code.gson:gson:2.10.1'
+}
